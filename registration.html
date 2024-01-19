@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <div class="body">
+<h1>registration form</h1>
+<form action="">
+    <div class="form">
+        <div class="formcontent">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="enter your name">
+    </div>
+    <div class="formcontent">
+        <label for="Father's Name">Father's Name</label>
+        <input type="text" id="Father's Name" placeholder="enter your Father's name">
+    </div>
+    <div class="formcontent">
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="enter your Email">
+    </div>
+    
+    <div class="formcontent" id="gen">
+        <label for="gen">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" value="M" name="gender" class="gender">
+        <label for="female">Female</label>
+        <input type="radio" value="F" name="gender" class="gender"> 
+    </div>
+    <div class="formcontent">
+        <label for="course">course</label>
+        <select name="course" id="course">
+            <option value="">select course</option>
+            <option value="mca">mca</option>
+            <option value="developer">developer</option>
+            <option value="backend">backend</option>
+        </select>
+    </div>
+        <div class="formcontent">
+        <label for="number">Mobile number</label>
+        <input type="number" name="number" id="number" placeholder="enter number">
+        </div>
+        <div class="formcontent" id="textarea">
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="3"></textarea>
+        </div>
+        <div class="btn">
+            <button type="submit">register</button>
+        </div>
+         <div class="btn">
+            <button type="reset">reset</button>
+        </div>
+    
+</div>
+</form>
+        </div>
+    </div>
+</body>
+</html>
