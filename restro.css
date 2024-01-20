@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.front{
+    min-height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+   
+}
+.container{
+    background-color: yellowgreen;
+    
+}
+ .logo{
+   
+    background-image: url(/images/restaurent_logo.jpg);
+    background-repeat: no-repeat;
+    margin: 20px 0 0 40px;
+}
+.logo span{
+   
+    margin: 0px 0 0 80px;
+    font-size: 40px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: rgb(234, 243, 241);
+    color: rgb(80, 4, 37);
+    border: none;
+    border-radius: 10px;
+}
+.body{
+    margin-left: 50px;
+    display: grid;
+  grid-template-columns: auto auto;
+    
+}
+.body .img{
+    height: 362px;
+    width: 444px;
+    background-image: url(/images/restaurent2.jpg);
+    background-repeat: no-repeat;
+   margin-left: 50px;
+    border-radius: 600px;
+    align-items: center;
+   
+}
+.content{
+    width: 700px;
+    width: 500p
+}
+.content span{
+    background-color: rgb(44, 128, 44);
+    color: ghostwhite;
+    padding: 7px;
+    font-size: 0.9em;
+}
+.content h1{
+    font-size: 87px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.content p{
+padding: 30px 150px 40px 10px;
+
+
+}
+.content button{
+    height: 30px;
+    width: 130px;
+    font-size: 1.05em;
+    background-color: hsl(30, 76%, 60%);
+    border-radius: 4px;
+    color: ghostwhite;
+    cursor: pointer;
+    border: none;
+}
+.content button:hover{
+    background-color: hsl(30, 76%, 47%);
+    
+    transform: scale(1.01);
+}
+.cardbody{  
+    display: flex;
+    justify-content:center;
+    margin-top: 40px;
+}
+.card{
+  max-width: 300px;
+ display: flex;
+ justify-content: space-between;
+ margin: 0 20px;
+}
+.card .icon{
+    width: 100px;
+}
+.text{
+    padding-left: 10px;
+}
+.text h1{
+    font-size: 20px;
+     padding-bottom: 10px;
+     text-transform: capitalize;
+     font-weight: bold;
+}
+.text p{
+    font-size: 13px;
+}
