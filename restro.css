@@ -5,7 +5,7 @@
 }
 .front{
     min-height: 100vh;
-    border: 1px solid black;
+   border-bottom: 1px solid gray;
     display: grid;
     align-items: center;
    
@@ -107,4 +107,71 @@ padding: 30px 150px 40px 10px;
 }
 .text p{
     font-size: 13px;
+}
+.menu{
+    height: 160vh;
+    display: grid;
+   text-align: center;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+}
+.img_container img{
+    margin: 7px;
+}
+.menutext{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: capitalize;
+    text-shadow: 2px 3px 5px rgb(87, 61, 61);
+    letter-spacing: 1px;
+}
+.menubtn{
+    margin: 20px auto; 
+}
+
+.menubtn button{
+    width: 150px;
+    height: 30px; 
+    background: #5198b4;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.menubtn button:hover{
+    border: 1px solid rgb(80, 146, 197);
+    background-image: linear-gradient(to right, rgb(157, 204, 222), rgb(38, 209, 218));
+    scale: 0.95;
+    box-shadow: 0 0 10px rgb(41, 69, 140);
+    color: blue;
+    font-weight: bold;
+}
+footer{
+ 
+   padding: 20px;
+    background-color: hsla(186, 25%, 58%, 0.411);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+footer h1{
+    text-transform: capitalize;
+    padding: 20px 0;
+    font-size: 2em;
+    color: #061d26ec;
+}
+footer input{
+    width: 100%;
+    height: 25px;
+}
+ a{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    
 }
