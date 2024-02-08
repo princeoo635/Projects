@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    display: flex;
+    scroll-behavior: smooth;
+   
+}
+header{
+    border: 1px solid gray; 
+    height: 100vh;
+    min-width: 25%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+nav h2{
+    text-align: center; 
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid rgb(131, 124, 124);
+}
+nav ul{
+    list-style-type: none; 
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(55, 60, 60);
+}
+nav ul li{ 
+    padding: 15px;
+border-bottom: 1px solid gray;
+transition: 0.3s ease-in;
+}
+nav ul li:hover{
+background-color: rgba(128, 128, 128, 0.656);
+transition: 0.3s ease-out;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+section{
+    display: grid;
+    gap: 20px;
+}
+section h1{
+    margin-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    font-weight: 500;
+}
+section h1:hover{
+    border-bottom: 1px solid gray;
+}
+section ul{
+    padding-left: 50px;
+    display: grid;
+    gap: 15px;
+}
+section h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+section h2:hover{
+    font-weight: 550;
+}
