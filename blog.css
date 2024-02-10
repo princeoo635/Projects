@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    background-color: ghostwhite;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 25px;
+}
+nav ul li{
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+}
+nav ul li:hover{
+    font-size: 20px;
+    border-bottom: 2px solid maroon;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgb(219, 214, 87);
+
+}
+nav ul li i{
+    font-size: 25px;
+    
+}
+ .fa-instagram:hover{
+    cursor: pointer;
+    color: rgb(232, 16, 16);
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    color: blue;
+}
+.fa-linkedin:hover{
+    cursor: pointer;
+    color: blue;
+}
+.hero-section{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.hero-content h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+.hero-content h4{
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 3px;
+}
+.hero-img{
+    border-radius: 50px;
+    overflow: hidden;
+}
+section{
+    margin-bottom: 40px;
+}
+.longcard{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+   display: flex;
+    
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.399);
+}
+.card-content{
+    padding: 30px;
+    align-self: center;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-content h1{
+    font-size: 2rem;
+    margin: 30px;
+}
+#card-section{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto 50px auto;
+    justify-content: space-between;
+}
+.card{
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.327);
+    width: 360px;
+    align-self: center;
+}
+.cardimg img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Blog page style */
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: 80vh;
+}
+.banner h1{
+    margin: 5px;
+}
+#author{
+    display: flex;
+    gap: 10px;
+}
+.content{
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    gap: 30px;
+}
+hr{
+    margin: 30px 0;
+}
+button{
+    padding: 5px;
+    font-size: 15px;
+    color: ghostwhite;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
