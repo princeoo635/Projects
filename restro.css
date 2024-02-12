@@ -175,3 +175,9 @@ footer input{
     margin-bottom: 20px;
     
 }
+footer ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
